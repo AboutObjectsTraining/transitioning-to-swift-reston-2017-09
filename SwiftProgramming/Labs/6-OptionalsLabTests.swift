@@ -3,6 +3,7 @@
 // See LICENSE.txt for this example's licensing information.
 //
 import XCTest
+@testable import SwiftProgramming
 
 class OptionalsLabTests: XCTestCase
 {

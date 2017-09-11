@@ -21,17 +21,17 @@
 		ABA5E2F41B7A64BC00DD2A7A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E2F21B7A637800DD2A7A /* Contact.swift */; };
 		ABEC74331B792D380088A91B /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC74321B792D380088A91B /* Geometry.swift */; };
 		ABEC74341B792D3E0088A91B /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC74321B792D380088A91B /* Geometry.swift */; };
-		ABF86A491F66B48500405E43 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A3E1F66B48500405E43 /* Cart.swift */; };
 		ABF86A4A1F66B48500405E43 /* 5-ClassesLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A3F1F66B48500405E43 /* 5-ClassesLabTests.swift */; };
 		ABF86A4B1F66B48500405E43 /* ClosuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A401F66B48500405E43 /* ClosuresTests.swift */; };
 		ABF86A4C1F66B48500405E43 /* 2-CollectionsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A411F66B48500405E43 /* 2-CollectionsLabTests.swift */; };
 		ABF86A4D1F66B48500405E43 /* ControlFlowLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A421F66B48500405E43 /* ControlFlowLabTests.swift */; };
-		ABF86A4E1F66B48500405E43 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A431F66B48500405E43 /* Customer.swift */; };
-		ABF86A4F1F66B48500405E43 /* LineItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A441F66B48500405E43 /* LineItems.swift */; };
 		ABF86A501F66B48500405E43 /* 6-OptionalsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A451F66B48500405E43 /* 6-OptionalsLabTests.swift */; };
-		ABF86A511F66B48500405E43 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A461F66B48500405E43 /* ShoppingCart.swift */; };
 		ABF86A521F66B48500405E43 /* StructuresLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A471F66B48500405E43 /* StructuresLabTests.swift */; };
 		ABF86A531F66B48500405E43 /* 3-TuplesLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A481F66B48500405E43 /* 3-TuplesLabTests.swift */; };
+		ABF86A5A1F66BBFE00405E43 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A561F66BBFE00405E43 /* Cart.swift */; };
+		ABF86A5B1F66BBFE00405E43 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A571F66BBFE00405E43 /* Customer.swift */; };
+		ABF86A5C1F66BBFE00405E43 /* LineItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A581F66BBFE00405E43 /* LineItems.swift */; };
+		ABF86A5D1F66BBFE00405E43 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86A591F66BBFE00405E43 /* ShoppingCart.swift */; };
 		ABFDA28D1E53688200A4ADD6 /* TupleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFDA28C1E53688200A4ADD6 /* TupleTests.swift */; };
 		ABFDA28F1E53688200A4ADD6 /* SwiftProgramming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9C5FFB1B4D85D4006860E0 /* SwiftProgramming.framework */; };
 		ABFDA2981E536AA500A4ADD6 /* StructAccessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFDA2971E536AA500A4ADD6 /* StructAccessorTests.swift */; };
@@ -71,17 +71,17 @@
 		AB9C603B1B4DCACB006860E0 /* SwiftBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ABA5E2F21B7A637800DD2A7A /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		ABEC74321B792D380088A91B /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
-		ABF86A3E1F66B48500405E43 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		ABF86A3F1F66B48500405E43 /* 5-ClassesLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5-ClassesLabTests.swift"; sourceTree = "<group>"; };
 		ABF86A401F66B48500405E43 /* ClosuresTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosuresTests.swift; sourceTree = "<group>"; };
 		ABF86A411F66B48500405E43 /* 2-CollectionsLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2-CollectionsLabTests.swift"; sourceTree = "<group>"; };
 		ABF86A421F66B48500405E43 /* ControlFlowLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowLabTests.swift; sourceTree = "<group>"; };
-		ABF86A431F66B48500405E43 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		ABF86A441F66B48500405E43 /* LineItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineItems.swift; sourceTree = "<group>"; };
 		ABF86A451F66B48500405E43 /* 6-OptionalsLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "6-OptionalsLabTests.swift"; sourceTree = "<group>"; };
-		ABF86A461F66B48500405E43 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		ABF86A471F66B48500405E43 /* StructuresLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructuresLabTests.swift; sourceTree = "<group>"; };
 		ABF86A481F66B48500405E43 /* 3-TuplesLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3-TuplesLabTests.swift"; sourceTree = "<group>"; };
+		ABF86A561F66BBFE00405E43 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		ABF86A571F66BBFE00405E43 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		ABF86A581F66BBFE00405E43 /* LineItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineItems.swift; sourceTree = "<group>"; };
+		ABF86A591F66BBFE00405E43 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		ABFDA28A1E53688200A4ADD6 /* Examples.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Examples.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFDA28C1E53688200A4ADD6 /* TupleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleTests.swift; sourceTree = "<group>"; };
 		ABFDA28E1E53688200A4ADD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +140,10 @@
 		AB9C5FFD1B4D85D4006860E0 /* SwiftProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				ABF86A561F66BBFE00405E43 /* Cart.swift */,
+				ABF86A571F66BBFE00405E43 /* Customer.swift */,
+				ABF86A581F66BBFE00405E43 /* LineItems.swift */,
+				ABF86A591F66BBFE00405E43 /* ShoppingCart.swift */,
 				ABEC74321B792D380088A91B /* Geometry.swift */,
 				AB1025371B4F1F0F00387003 /* Dog.swift */,
 				AB1025311B4F196C00387003 /* Person.swift */,
@@ -160,10 +164,6 @@
 				AB12CF6F1B544456004A846B /* 4-GeometryLabTests.swift */,
 				ABF86A3F1F66B48500405E43 /* 5-ClassesLabTests.swift */,
 				ABF86A451F66B48500405E43 /* 6-OptionalsLabTests.swift */,
-				ABF86A431F66B48500405E43 /* Customer.swift */,
-				ABF86A441F66B48500405E43 /* LineItems.swift */,
-				ABF86A3E1F66B48500405E43 /* Cart.swift */,
-				ABF86A461F66B48500405E43 /* ShoppingCart.swift */,
 				ABF86A401F66B48500405E43 /* ClosuresTests.swift */,
 				ABF86A421F66B48500405E43 /* ControlFlowLabTests.swift */,
 				ABF86A471F66B48500405E43 /* StructuresLabTests.swift */,
@@ -327,9 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1025321B4F196C00387003 /* Person.swift in Sources */,
+				ABF86A5B1F66BBFE00405E43 /* Customer.swift in Sources */,
+				ABF86A5A1F66BBFE00405E43 /* Cart.swift in Sources */,
 				ABEC74331B792D380088A91B /* Geometry.swift in Sources */,
+				ABF86A5C1F66BBFE00405E43 /* LineItems.swift in Sources */,
 				ABA5E2F31B7A637800DD2A7A /* Contact.swift in Sources */,
 				AB1025381B4F1F0F00387003 /* Dog.swift in Sources */,
+				ABF86A5D1F66BBFE00405E43 /* ShoppingCart.swift in Sources */,
 				AB1025351B4F1A7300387003 /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,16 +349,12 @@
 				ABF86A521F66B48500405E43 /* StructuresLabTests.swift in Sources */,
 				AB12CF701B544456004A846B /* 4-GeometryLabTests.swift in Sources */,
 				ABF86A531F66B48500405E43 /* 3-TuplesLabTests.swift in Sources */,
-				ABF86A4F1F66B48500405E43 /* LineItems.swift in Sources */,
 				ABA5E2F41B7A64BC00DD2A7A /* Contact.swift in Sources */,
-				ABF86A511F66B48500405E43 /* ShoppingCart.swift in Sources */,
 				AB1025391B4F1F0F00387003 /* Dog.swift in Sources */,
-				ABF86A4E1F66B48500405E43 /* Customer.swift in Sources */,
 				AB1025361B4F1A7300387003 /* Employee.swift in Sources */,
 				ABEC74341B792D3E0088A91B /* Geometry.swift in Sources */,
 				AB10253D1B4F323E00387003 /* PersonTests.swift in Sources */,
 				ABF86A4D1F66B48500405E43 /* ControlFlowLabTests.swift in Sources */,
-				ABF86A491F66B48500405E43 /* Cart.swift in Sources */,
 				ABF86A4B1F66B48500405E43 /* ClosuresTests.swift in Sources */,
 				AB9C603A1B4D8827006860E0 /* 1-TemperatureConversionTests.swift in Sources */,
 			);
