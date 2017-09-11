@@ -1,6 +1,8 @@
-# transitioning-to-swift-reston-2017-09
+<div>
+<a href="https://www.aboutobjects.com"><img src="ao-logo.png" height=18 style="height: 18px;"/></a>
+</div>
 
-## Transitioning to Swift
+# Transitioning to Swift
 
 September, 2017
 
