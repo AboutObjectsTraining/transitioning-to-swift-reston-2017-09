@@ -9,6 +9,8 @@ class PersonsTableViewController: UITableViewController
 {
     @IBOutlet var dataSource: PersonDataSource?
     
+    @IBAction func updateMood(_ sender: Any) { tableView.reloadData() }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let detailController = segue.destination as? PersonDetailTableViewController,
             let indexPath = tableView?.indexPathForSelectedRow else { return }

@@ -6,9 +6,9 @@ import Foundation
 
 class Person: NSObject
 {
-    var firstName: String?
-    var lastName: String?
-    var pet: Pet?
+    @objc var firstName: String?
+    @objc var lastName: String?
+    @objc var pet: Pet?
     
     var mood: Mood {
         return Mood(rawValue: Int(arc4random_uniform(5))) ?? .cheerful
@@ -32,7 +32,7 @@ extension Person
         if let last = lastName, last == "" { return nil }
         return lastName
     }
-    var fullName: String {
+    @objc var fullName: String {
         switch (fName, lName) {
         case let (first?, last?): return "\(last), \(first)"
         case let (first?, _):     return first
@@ -50,11 +50,11 @@ extension Person
 // MARK: Flattened attribute values
 extension Person
 {
-    var petTypeText: String? {
+    @objc var petTypeText: String? {
         return pet?.type.description
     }
     
-    var petToysText: String? {
+    @objc var petToysText: String? {
         // Passing constant rather than literal avoids Swift 3 compiler bug
         return pet?.toys.reduce(String.empty) {
             let delimiter = $0.isEmpty ? String.empty : String.delimiter

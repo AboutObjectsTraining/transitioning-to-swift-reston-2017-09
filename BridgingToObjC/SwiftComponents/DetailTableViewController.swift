@@ -6,7 +6,7 @@ import UIKit
 
 public class DetailTableViewController: UITableViewController
 {
-    public var text: String?
+    @objc public var text: String?
     
     @IBOutlet public weak var titleCell: UILabel!
     

@@ -24,12 +24,12 @@ public class FooterView: UIView
         set { layer.borderColor = newValue.cgColor }
     }
     
-    static let defaultAttributes: [String: Any] = {
-        return [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18),
-                NSForegroundColorAttributeName: UIColor.white]
+    static let defaultAttributes: [NSAttributedStringKey: Any] = {
+        return [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 18),
+                NSAttributedStringKey.foregroundColor: UIColor.white]
     }()
     
-    public class var attributes: [String: Any] {
+    public class var attributes: [NSAttributedStringKey: Any] {
         return FooterView.defaultAttributes
     }
     
